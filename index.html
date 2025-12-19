@@ -226,10 +226,10 @@
     <!-- NAVBAR -->
     <nav class="w-full py-4 px-4 md:px-12 flex justify-between items-center bg-white/95 backdrop-blur-md fixed top-0 z-50 border-b border-gray-100 shadow-sm transition-all duration-300">
         <div class="flex items-center gap-2">
-            <!-- Logo Filtered to Navy Blue to match text on white bg -->
-            <img src="logo.png" alt="Coin Carrière" class="h-10 object-contain" 
-                 style="filter: brightness(0) saturate(100%) invert(18%) sepia(12%) saturate(3364%) hue-rotate(176deg) brightness(94%) contrast(94%);"
+            <!-- Logo -->
+            <img src="image_af28fb.png" alt="Coin Carrière" class="h-10 object-contain" 
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+            <!-- Text Fallback in Navy -->
             <span style="display:none" class="font-extrabold text-2xl tracking-tighter text-brand-navy">COIN <span class="text-brand-lime">CARRIÈRE</span></span>
         </div>
         <button onclick="scrollToForm()" class="bg-brand-lime text-brand-navy px-6 py-2.5 rounded-full font-bold text-sm hover:bg-brand-navy hover:text-white transition-all shadow-md flex items-center gap-2 border-2 border-transparent">
@@ -246,7 +246,7 @@
 
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 relative z-10">
             
-            <!-- TEXT CONTENT -->
+            <!-- TEXT CONTENT (RIGHT SIDE) -->
             <div class="lg:w-1/2 text-right reveal z-20">
                 <!-- Tag -->
                 <div class="inline-flex items-center gap-2 bg-brand-navy/5 border border-brand-navy/10 px-4 py-1.5 rounded-full mb-6 fade-in-up" style="animation-delay: 0.1s;">
@@ -288,7 +288,7 @@
                 </div>
             </div>
 
-            <!-- VIDEO PLAYER -->
+            <!-- VIDEO PLAYER (LEFT SIDE) -->
             <div class="lg:w-1/2 w-full relative reveal" style="transition-delay: 0.3s;">
                 <div class="relative group cursor-pointer w-full">
                     <div class="absolute -inset-1 bg-gradient-to-tr from-brand-blue via-transparent to-brand-lime rounded-[1.2rem] blur-xl opacity-60 transition duration-700 pointer-events-none"></div>
@@ -296,7 +296,7 @@
                         <video 
                             id="heroVideo" 
                             class="w-full h-full object-cover" 
-                            poster="image_af3043.jpg" 
+                            poster="image_af2c22.jpg" 
                             playsinline 
                             controls
                             controlsList="nodownload"
@@ -437,7 +437,7 @@
                 <div class="inline-block p-1 rounded-2xl bg-gradient-to-r from-brand-lime via-brand-blue to-brand-navy p-[2px]">
                     <div class="bg-brand-navy rounded-2xl px-12 py-8 shadow-lg">
                         <p class="text-xl md:text-2xl font-bold text-white leading-normal">
-                            "كلشي مجموع فمكان واحد… <span class="text-brand-lime">وبلا ما تتحرك من بلاصتك.</span>"
+                            "كلشي مجموع فمكان واحد… <span class="text-white font-black underline decoration-brand-lime">وبلا ما تتحرك من بلاصتك.</span>"
                         </p>
                     </div>
                 </div>
@@ -724,12 +724,12 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="bg-brand-navy text-white py-16 border-t border-brand-dark">
+    <!-- FOOTER (Compact & White Text) -->
+    <footer class="bg-brand-navy text-white py-8 border-t border-brand-dark">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <img src="logo.png" alt="Coin Carrière" class="h-12 mx-auto mb-8 opacity-80 grayscale hover:grayscale-0 transition-all brightness-0 invert" onerror="this.style.display='none'">
-            <p class="text-2xl font-bold mb-3 text-brand-lime">2026 Coin Carrière</p>
-            <p class="text-sm text-gray-500">جميع الحقوق محفوظة.</p>
+            <img src="image_af28fb.png" alt="Coin Carrière" class="h-10 mx-auto mb-4 opacity-80 grayscale hover:grayscale-0 transition-all brightness-0 invert" onerror="this.style.display='none'">
+            <p class="text-xl font-bold mb-2 text-brand-lime">2026 Coin Carrière</p>
+            <p class="text-xs text-gray-400">جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
